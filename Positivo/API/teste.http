@@ -1,0 +1,10 @@
+#GET http://localhost:5165 
+
+#GET http://localhost:5165/1 
+
+#GET http://localhost:5165/2
+
+POST http://localhost:5165/Content-Type: application/json{
+    "Id": "3",
+    "name": "Teste"
+}
